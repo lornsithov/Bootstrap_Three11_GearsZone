@@ -1,0 +1,437 @@
+body{
+  font-family: 'Montserrat';
+}
+.seeall{
+  background-color: #000;
+  display: flex;
+  padding: 0 12%;
+  justify-content: right;
+}
+/* ---------------> Navigation Bar <--------------- */
+.navbar{
+  background-color: #000;
+  padding: 0 10%;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+.navbar img{
+  width: 6rem;
+}
+.navbar .icon{
+  margin-right: 5%;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .icon:hover{
+  color: #891c2e;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-item .nav-link{
+  font-size: 1.2rem;
+}
+.navbar a:hover{
+  color: #2e5e99;
+}
+/* ---------------> Navigation Bar ends <--------------- */
+
+/* ---------------> Carousel <--------------- */
+#testimonials{
+  text-align: center;
+  background-color:#000;
+  color: #fff;
+}
+#testimonials .carousel-item{
+  padding: 2% 15%;
+  height: 100%;
+}
+#testimonials h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+#testimonials .testimonial-image{
+  width: 80%;
+  /* width: 10%;
+  border-radius: 100%; 
+  margin: 20px; */
+}
+/* ---------------> Carousel ends <--------------- */
+
+/* ---------------> Title <--------------- */
+#title{
+background-color: #000;
+color: #fff;  
+}
+#title .container-fluid{
+padding: 3% 10%;
+align-items: center;
+text-align: center;
+}
+#title h1{
+font-size: 3rem;  
+line-height: 1.5;  
+font-weight: 900;
+margin-bottom: 30px;
+}
+/* a */
+#title a{
+cursor: pointer;
+}
+/* Title Image */
+#title img{
+width: 100%;
+padding-left: 5%;
+}  
+/* Download Buttons */
+#title .title-button{
+margin: 5% 3% 5% 0;
+}
+#title .title-button:hover{
+color: #fff;
+background-color: #E0144C;
+}
+/* ---------------> Title ends <--------------- */
+
+/* ---------------> Features <--------------- */
+#features{
+  text-align: center;
+  padding: 5%;
+  z-index: 100;
+  background-color: #000;
+}
+#features .container-fluid{
+  padding: 3% 15%;
+}
+#features h3{
+  color: #fff;
+  font-weight: bold;
+}
+#features p{
+  color: #fff;
+}
+/* icons */
+#features .icon{
+  color:#fff;
+  margin-bottom: 1rem;
+}
+#features .icon:hover{
+  color:#c01c37;
+}
+/* ---------------> Features ends <--------------- */
+
+/* ---------------> Hook 1 <--------------- */
+#hook1{
+  background-color:#000;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook 1 ends <--------------- */
+
+/* ---------------> Content 1<--------------- */
+#content1{
+  padding: 0% 2% 5% 2%;
+  background-color:#000;
+}
+#content1 .card{
+  background-color:#c01c37;
+}
+#content1 .card:hover{
+  transform: translateY(-15px);
+}
+#content1 .card h5{
+  color: #fff;
+} 
+#content1 .card h4{
+  color:#000;
+}
+#content1 .cost{
+  text-align: center;
+  margin-bottom: 8%;
+}
+#content1 .star{
+  color: #fbc02d;
+}
+#content1 .p-3{
+  background-color:#c01c37;
+}
+#content1 .btn{
+  background-color: #fff;
+  color: #891c2e;
+  
+}
+#content1 .btn:hover{
+  background-color:#891c2e;
+  color:#fff;
+  
+}
+/* ---------------> Content 1 ends <--------------- */
+
+/* ---------------> Hook 2 <--------------- */
+#hook2{
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook 2 ends <--------------- */
+
+/* ---------------> Content 2<--------------- */
+#content2{
+  padding: 0% 2% 5% 2%;
+  background-color:#000;
+}
+#content2 .card{
+  background-color:#d83f59;
+}
+#content2 .card:hover{
+  transform: translateY(-15px);
+}
+#content2 img{
+  height: 150px;
+}
+#content2 .pro-name{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content2 .card h5{
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+} 
+#content2 .card h4{
+  color:#000;
+}
+#content2 .cost{
+  text-align: center;
+  margin-bottom: 8%;
+}
+#content2 .star{
+  color: #fbc02d;
+}
+#content2 .p-3{
+  background-color:#c01c37;
+}
+#content2 .btn{
+  background-color: #fff;
+  color: #891c2e;
+  
+}
+#content2 .btn:hover{
+  background-color:#891c2e;
+  color:#fff;
+  
+}
+/* ---------------> Content 2 ends <--------------- */
+
+/* ---------------> Hook 3 <--------------- */
+#hook3{
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook 3 ends <--------------- */
+
+/* ---------------> Content 3<--------------- */
+#content3{
+  padding: 0% 2% 5% 2%;
+  background-color:#000;
+}
+#content3 .card{
+  background-color:#9a2135;
+}
+#content3 .card:hover{
+  transform: translateY(-15px);
+}
+#content3 img{
+  height: 122px;
+}
+#content3 .pro-name{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content3 .card h5{
+  color: #fff;
+} 
+#content3 .card h4{
+  color:#000;
+}
+#content3 .cost{
+  text-align: center;
+  margin-bottom: 8%;
+}
+#content3 .star{
+  color: #fbc02d;
+}
+#content3 .p-3{
+  background-color:#891c2e;
+}
+#content3 .btn{
+  background-color: #fff;
+  color:#c01c37;
+  
+}
+#content3 .btn:hover{
+  background-color:#c01c37;
+  color:#fff;
+  
+}
+/* ---------------> Content 3 ends <--------------- */
+
+
+/* ---------------> Hook 4 <--------------- */
+#hook4{
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook 4 ends <--------------- */
+
+/* ---------------> Content 4 <--------------- */
+#content4{
+  padding: 0% 2% 5% 2%;
+  background-color:#000;
+}
+#content4 .card{
+  background-color:#ff7a91;
+}
+#content4 img{
+  height: 150px;
+}
+#content4 .pro-name{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content4 .card:hover{
+  transform: translateY(-15px);
+}
+#content4 .card h5{
+  color: #fff;
+} 
+#content4 .card h4{
+  color:#000;
+}
+#content4 .cost{
+  text-align: center;
+  margin-bottom: 8%;
+}
+#content4 .star{
+  color: #fbc02d;
+}
+#content4 .p-3{
+  background-color:#ff627c;
+}
+#content4 .btn{
+  background-color: #fff;
+  color:#c01c37;
+  
+}
+#content4 .btn:hover{
+  background-color:#c01c37;
+  color:#fff;
+  
+}
+/* ---------------> Content 4 ends <--------------- */
+
+
+
+/* ---------------> Hook 5 <--------------- */
+#hook5{
+  background-color:#dadce0;
+  color:#000;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook 5 ends <--------------- */
+/* ---------------> Hook 5 <--------------- */
+#hook5{
+  background-color: #891c2e;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook 5 ends <--------------- */
+
+/* ---------------> Content 5 <--------------- */
+#content5{
+  padding: 0% 2% 5% 2%;
+  background-color: #891c2e;
+}
+#content5 .card{
+  background-color: rgb(34, 34, 34);
+}
+#content5 .card:hover{
+  transform: translateY(-15px);
+}
+#content5 img{
+  height: 150px;
+}
+#content5 .pro-name{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content5 .card h5{
+  color: #fff;
+} 
+#content5 .card h4{
+  color: #c01c37;
+}
+#content5 .cost{
+  text-align: center;
+  margin-bottom: 8%;
+}
+#content5 .star{
+  color: #fbc02d;
+}
+#content5 .p-3{
+  background-color:#000;
+}
+#content5 .btn{
+  background-color:#891c2e;
+  color:#fff;
+}
+#content5 .btn:hover{
+  background-color: #fff;
+  color: #891c2e;
+}
+/* ---------------> Content 4 ends <--------------- */
+
+
+
+/* ---------------> Footer <--------------- */
+#footer{
+  color: #fff;
+  background-color: #000;
+  padding: 5% 30%;
+  text-align: center;
+}
+#footer .social{
+  margin-bottom: 10%;
+}
+#footer a{
+  color:#fff;
+  text-decoration: none;
+}
+#footer i{
+  cursor: pointer;
+}
+#footer .icon{
+  color:#fff;
+  margin: 0px 10px;
+}
+/* ---------------> Footer ends <--------------- */

@@ -1,0 +1,77 @@
+body{
+  background-color: #000;
+}
+/* ---------------> Navigation Bar <--------------- */
+.navbar{
+  background-color: #000;
+  padding: 0 10%;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+.navbar img{
+  width: 6rem;
+}
+.navbar .icon{
+  margin-right: 5%;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .icon:hover{
+  color: #891c2e;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-item .nav-link{
+  font-size: 1.2rem;
+}
+.navbar a:hover{
+  color: #2e5e99;
+}
+/* ---------------> Navigation Bar ends <--------------- */
+
+/* ---------------> Sign in <--------------- */
+.main{
+  background-color: #dadce0;
+  padding: 20% 20%;
+}
+.main .container{
+  background-color: #fff;
+  padding: 5% 5%;
+  text-align: center;
+  border-radius: 5px;
+}
+.input-control{
+  margin-bottom: 20px;
+}
+button{
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+/* ---------------> Sign in ends<--------------- */
+
+/* ---------------> Footer <--------------- */
+#footer{
+  color: #fff;
+  background-color: #000;
+  padding: 5% 30%;
+  text-align: center;
+}
+#footer .social{
+  margin-bottom: 10%;
+}
+#footer a{
+  color:#fff;
+  text-decoration: none;
+}
+#footer i{
+  cursor: pointer;
+}
+#footer .icon{
+  color:#fff;
+  margin: 0px 10px;
+}
+/* ---------------> Footer ends <--------------- */

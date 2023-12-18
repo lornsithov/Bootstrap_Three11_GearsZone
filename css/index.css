@@ -1,0 +1,253 @@
+/* ------------------------------------------------- */
+/* ------------------General------------------------ */
+/* ------------------------------------------------- */
+body{
+  font-family: 'Montserrat';
+}
+/* ---------------> Navigation Bar <--------------- */
+.navbar{
+  background-color: #000;
+  padding: 0 10%;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+.navbar img{
+  width: 6rem;
+}
+.navbar .icon{
+  margin-right: 5%;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .icon:hover{
+  color: #891c2e;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-item .nav-link{
+  font-size: 1.2rem;
+}
+.navbar a:hover{
+  color: #2e5e99;
+}
+/* ---------------> Navigation Bar ends <--------------- */
+
+/* ---------------> Footer <--------------- */
+#footer{
+  color: #fff;
+  background-color: #000;
+  padding: 5% 30%;
+  text-align: center;
+}
+#footer .social{
+  margin-bottom: 10%;
+}
+#footer a{
+  color:#fff;
+  text-decoration: none;
+}
+#footer i{
+  cursor: pointer;
+}
+#footer .icon{
+  color:#fff;
+  margin: 0px 10px;
+}
+/* ---------------> Footer ends <--------------- */
+
+/* ------------------------------------------------- */
+/* ------------------Index.html--------------------- */
+/* ------------------------------------------------- */
+
+/* ---------------> Title <--------------- */
+#title{
+background-color: #000;
+color: #fff;  
+}
+#title .container-fluid{
+padding: 3% 10%;
+align-items: center;
+text-align: center;
+}
+#title h1{
+font-size: 3rem;  
+line-height: 1.5;  
+font-weight: 900;
+margin-bottom: 30px;
+}
+/* a */
+#title a{
+cursor: pointer;
+}
+/* Title Image */
+#title img{
+width: 100%;
+padding-left: 5%;
+}  
+/* Download Buttons */
+#title .title-button{
+margin: 5% 3% 5% 0;
+}
+#title .title-button a{
+  text-decoration: none;
+  color: #fff;
+}
+#title .title-button:hover,
+#title .title-button a:hover{
+color: #fff;
+background-color: #E0144C;
+}
+/* detail */
+#title .single-pro{
+  padding: 5% 10%;
+}
+#title .single-detail{
+  border: 1px solid #fff;
+  padding: 3%;
+}
+#title .single-img{
+  margin: 20% 0;
+  border: 1px solid #fff;
+  padding: 5% 0;
+}
+#title .price{
+  color: #E0144C;
+}
+#title .pro-name{
+  font-style: italic;
+}
+#title ul, #title p{
+  text-align: justify;
+}
+/* #title .single-detail{
+  border: 1px solid #fff;
+} */
+#title .cost{
+  color: #fbc02d;
+}
+#title .single-img{
+  width: 300px;
+}
+#title h3, p{
+  font-weight: 300;
+}
+#title h2{
+  font-weight: bold;
+}
+#title h5{
+  border: 1px solid #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5%;
+}
+/* ---------------> Title ends <--------------- */
+
+/* ---------------> Features <--------------- */
+#features{
+  text-align: center;
+  padding: 5%;
+  z-index: 100;
+  background-color: #000;
+}
+#features .container-fluid{
+  padding: 7% 15%;
+  color: #2e5e99;
+}
+#features h3{
+  font-weight: bold;
+}
+#features p{
+  color: blue;
+}
+/* icons */
+#features .icon{
+  color:blue;
+  margin-bottom: 1rem;
+}
+/* #features .icon:hover{
+  color:#E0144C;
+} */
+/* #feauture .feature-box{
+  color:#2e5e99;
+} */
+/* ---------------> Features ends <--------------- */
+
+/* ---------------> Carousel <--------------- */
+#testimonials{
+  text-align: center;
+  background-color:#891c2e;
+  color: #fff;
+}
+#testimonials .carousel-item{
+  padding: 2% 15%;
+  height: 100%;
+}
+#testimonials h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+#testimonials .testimonial-image{
+  width: 80%;
+  /* width: 10%;
+  border-radius: 100%; 
+  margin: 20px; */
+}
+/* ---------------> Carousel ends <--------------- */
+
+/* ---------------> Hook <--------------- */
+#hook{
+  background-color: #891c2e;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+/* ---------------> Hook ends <--------------- */
+
+/* ---------------> Content <--------------- */
+#content{
+  padding: 0% 2% 5% 2%;
+  background-color: #891c2e;
+}
+#content .card{
+  background-color: #000;
+}
+#content .card:hover{
+  transform: translateY(-15px);
+}
+#content .card h5{
+  color: #fff;
+} 
+#content .card h4{
+  color: #c01c37;
+}
+#content .cost{
+  text-align: center;
+  margin-bottom: 8%;
+}
+#content .star{
+  color: #fbc02d;
+}
+#content .p-3{
+  background-color:#000;
+}
+#content .btn{
+  background-color:#891c2e;
+  color:#fff;
+}
+#content .btn:hover{
+  background-color: #fff;
+  color: #891c2e;
+}
+/* ---------------> Content ends <--------------- */
+
+
+
+
+/* ---------------> details starts <--------------- */
+
+/* ---------------> details ends <--------------- */

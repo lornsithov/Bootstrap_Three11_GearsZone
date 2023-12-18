@@ -1,0 +1,222 @@
+body{
+  font-family: 'Montserrat';
+}
+/* ---------------> Navigation Bar <--------------- */
+.navbar{
+  background-color: #000;
+  padding: 0 10%;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+.navbar img{
+  width: 6rem;
+}
+.navbar .icon{
+  margin-right: 5%;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .icon:hover{
+  color: #891c2e;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-item .nav-link{
+  font-size: 1.2rem;
+}
+.navbar a:hover{
+  color: #2e5e99;
+}
+/* ---------------> Navigation Bar ends <--------------- */
+                              /* Title */
+#title{
+  background-color: #000;
+  color: #fff;  
+}
+#title .container-fluid{
+  padding: 3% 10%;
+  align-items: center;
+  text-align: center;
+}
+#title h1{
+  font-size: 3rem;  
+  line-height: 1.5;  
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+/* a */
+#title a{
+  cursor: pointer;
+}
+/* Title Image */
+#title img{
+  width: 100%;
+  padding-left: 5%;
+}  
+/* Download Buttons */
+#title .title-button{
+  margin: 5% 3% 5% 0;
+}
+#title .title-button a{
+  text-decoration: none;
+  color: #fff;
+}
+#title .title-button:hover,
+#title .title-button a:hover{
+color: #fff;
+background-color: #E0144C;
+}
+                              /* Feature */
+#features{
+  text-align: center;
+  padding: 5%;
+  z-index: 100;
+  background-color: #000;
+}
+#features .container-fluid{
+  padding: 7% 15%;
+}
+#features h3{
+  color: #fff;
+  font-weight: bold;
+}
+#features p{
+  color: #fff;
+}
+/* icons */
+#features .icon{
+  color:#fff;
+  margin-bottom: 1rem;
+}
+#features .icon:hover{
+  color:#E0144C;
+}
+                              /* Call to Action */
+#cta{
+  padding: 10% 20%;
+  background-color:#E0144C;
+  height: 500px;
+  text-align: center;
+}
+#cta h1{
+  color: #fff;
+  font-size: 50px;
+}
+#cta h3{
+  color: #fff;
+  padding-bottom: 5%;
+}
+#cta button{
+  margin: 5% 3% 5% 0;
+}
+#cta button:hover{
+  color:#E0144C;
+  background-color:#fff;
+}
+#cta .btn-windows{
+  background-color: #357EC7;
+  height: 80px;
+  width: 200px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+                              /* Pricing */
+#pricing{
+  padding: 10% 10%;
+  text-align: center;
+}
+#pricing .row{
+  margin-top: 40px;
+}
+#pricing .card{
+  text-align: center;
+  margin-bottom: 20px;
+}
+#pricing h3{
+  font-family: 'ubuntu';
+}
+#pricing h2{
+  font-size: 45px;
+}
+#pricing p{
+  color: #515151;
+}
+#pricing button{
+  font-size: 20px;
+  width: 95%;
+  /* we can use a class called btn-block tho, its gonna take width almost the full size of the card */
+  height: 50px;
+  border-radius: 5px;
+}
+#pricing button:hover{
+  color: #fff;
+  background-color: #E0144C;
+}
+
+
+                              /* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color:#E0144C;
+  color: #fff;
+}
+#testimonials .carousel-item{
+  padding: 7% 15%;
+  height: 800px;
+}
+#testimonials h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+#testimonials .testimonial-image{
+  width: 200px;
+  border-radius: 100px;
+  margin: 8%;
+  
+  /* width: 10%;
+  border-radius: 100%; 
+  margin: 20px; */
+}
+
+                              /* Press */
+#press{
+  background-color:#E0144C;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img{
+  width: 200px;
+  margin: 20px 0 20px 50px;
+}
+
+
+
+/* ---------------> Footer <--------------- */
+#footer{
+  color: #fff;
+  background-color: #000;
+  padding: 5% 30%;
+  text-align: center;
+}
+#footer .social{
+  margin-bottom: 10%;
+}
+#footer a{
+  color:#fff;
+  text-decoration: none;
+}
+#footer i{
+  cursor: pointer;
+}
+#footer .icon{
+  color:#fff;
+  margin: 0px 10px;
+}
+/* ---------------> Footer ends <--------------- */
